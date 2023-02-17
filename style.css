@@ -1,0 +1,247 @@
+
+body {
+    background-image: url("/image/quiz-connaissez-vous-bien-les-fleurs-et-plantes.webp");
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    min-height: calc(100vh - 80px); /* La hauteur minimale de l'élément est égale à la hauteur de l'écran (100vh) moins la hauteur du header (80px) */
+  background-image: url("/image/quiz-connaissez-vous-bien-les-fleurs-et-plantes.webp");
+}
+
+.card {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 0px rgba(9,30,66,.25);
+    min-width: 250px;
+    max-width: 350px;
+}
+
+.card-header {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.button {
+    background-color: #fe0b95;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: #fe0b95;
+    
+}
+body {
+	background-image: url('fleurs.jpg');
+	background-repeat: repeat;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color:gray;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+h1 {
+	font-size: 24px;
+	margin: 0;
+}
+.model1{
+    border-radius: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(185, 211, 234);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 6px;
+}
+.model2{
+    border-radius: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(147, 198, 151);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 6px;
+}
+.model3{
+    border-radius: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    padding: 6px;
+}
+.button-login {
+	background-color: #fe0b95;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	padding: 8px;
+	text-align: center;
+	transition: background-color 85ms ease-in;
+}
+
+.button-login:hover {
+	background-color: #fe0b95;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 80px;
+	padding: 20px;
+}
+
+.card {
+	background-color: #fff;
+	border-radius: 3px;
+	box-shadow: 0 1px 0 rgba(9,30,66,.25);
+	cursor: pointer;
+	margin: 0 10px 10px;
+	max-width: 300px;
+	height: fit-content;
+	padding: 8px;
+	position: relative;
+	text-decoration: none;
+}
+
+.card:hover {
+	background-color: #f4f5f7;
+}
+
+.card-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4px 8px;
+}
+
+.card-title {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.card-menu {
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+}
+.flower-icon {
+    width: 32px;
+    height: 32px;
+    background: url("chemin/vers/votre/image.png") no-repeat center center;
+    background-size: contain;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+  }
+  .footer {
+  
+  padding: 40px 0;
+}
+
+.footer h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.contact-info li {
+  font-size: 14px;
+  line-height: 24px;
+  color: #555;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  color:  #fe0b95;
+}
+
+.newsletter-form input[type="email"] {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.newsletter-form button {
+  border: none;
+  background-color: #fe0b95;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color:  #fe0b95;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .footer h3 {
+    font-size: 18px;
+  }
+  .contact-info li {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
