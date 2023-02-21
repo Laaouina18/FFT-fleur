@@ -23,7 +23,7 @@ $taches = $db->query("select * from taches")->statement->fetchAll();
     <div>
 
       <form method="POST" action="/controller.php" class="descriptiontodo">
-        <input name="description" placeholder="ecrit.." class="input mb-6" style="bottom: 40%; left: 20%;">
+        <input name="description" placeholder="ecrit.." class="input mb-6" style="bottom: 40%; left: 20%;" required>
 
       <button class="btn btn-primary" type="submit" style=" " name="save"> save</button>
        

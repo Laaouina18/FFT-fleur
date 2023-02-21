@@ -41,7 +41,7 @@ exit;
 
     <form method="POST" action="update.php?id=<?=$_GET['id']?>" class="descriptiontodo">
      
-        <input name="description" value="<?= $taches['description'] ?>" class="input mb-6" style="bottom: 40%; left: 20%;">
+        <input name="description" value="<?= $taches['description'] ?>" class="input mb-6" style="bottom: 40%; left: 20%;" required>
       
         <button class="btn btn-primary" type="submit"  name="submit">Save</button>
       </form>
